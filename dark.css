@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background: #121212;
+    color: #eee;
+}
+
+/* Hero Banner */
+.hero {
+    text-align: center;
+    padding: 6rem 2rem;
+    background: #1f1f1f;
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.7rem 1.4rem;
+    background: #6c63ff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Sections */
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Projects */
+.project-grid {
+    display: grid;
+    gap: 1.3rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    margin-top: 2rem;
+}
+.project-card {
+    background: #1f1f1f;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #333;
+}
+.project-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    background: #6c63ff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #1f1f1f;
+    color: #aaa;
+    margin-top: 3rem;
+}
